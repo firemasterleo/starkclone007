@@ -1,4 +1,7 @@
 <template>
+<div class="grandparent">
+
+
 <div class="parentcontainer">
     <div class="headercontainer" :class="{ 'fixedheader': is_expanded }">
         <div class="header">
@@ -100,7 +103,7 @@
         </div>
     </div>
     <div class="body" v-if="!is_expanded">
-        <h1>hello</h1>
+        <h1>hellvgggvo</h1>
         <h1>hello</h1>
         <h1>hello</h1>
         <h1>hello</h1>
@@ -148,6 +151,7 @@
     </div>
     <div class="footer"></div>
 
+</div>
 </div>
 
 <!-- <h1>
